@@ -10,8 +10,8 @@ to actually create the image.
 
 Build instructions - gcc entplot.c -o entplot -lm -Wall
 
-usage: entplot <target file> <output.png>  ; this generates entplot.plt
-       gnuplot entplot.plt                 ; this generates <output.png>
+usage: entplot targetfile output.png  ; this generates entplot.plt
+       gnuplot entplot.plt            ; this generates <output.png>
 
 Feel free to use this code however you like. 
 
